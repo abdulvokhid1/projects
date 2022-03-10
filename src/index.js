@@ -3,17 +3,17 @@ import ReactDOM from "react-dom";
 import "./index.css";
 // import App from './App';
 import reportWebVitals from "./reportWebVitals";
-import { State } from "./components/State";
-import Hooks from "./components/Hooks";
+// import { State } from "./components/State";
+// import Hooks from "./components/Hooks";
 // import Truck from './Truck'
-import { Root } from "./root/Root";
+import Root from "./root";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Root /> */}
+    <Root />
     {/* <Truck/> */}
     {/* <State /> */}
-    <Hooks />
+    {/* <Hooks /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
