@@ -76,28 +76,27 @@ import {
   Colorword,
   Mapflower,
   Imgmap,
+  Link,
 } from "./style";
 import leaf from "../../components/assets/icons/leaf.png";
 import search from "../assets/icons/search.png";
 import port from "../assets/icons/port.png";
 import stroke from "../assets/icons/stroke.png";
-const style = {
-  color: "red",
-};
+import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   return (
     <Container>
-      <Dashbar>
+      {/* <Dashbar>
         <Leaf>
           <Icon src={leaf} />
           <Greenshot>GREENSHOT</Greenshot>
         </Leaf>
         <Home>
-          <Blogs>Home</Blogs>
-          <Blogs>Shop</Blogs>
-          <Blogs>PlantCare</Blogs>
-          <Blogs>Blogs</Blogs>
+          <Link to={"/homeview"}>Home</Link>
+          <Link to={"/shopview"}>Shop</Link>
+          <Link to={"/plantview"}>PlantCare</Link>
+          <Link to={"/blogsview"}>Blogs</Link>
         </Home>
         <Login>
           <Search src={search} />
@@ -108,7 +107,7 @@ export const Navbar = () => {
             <Number>6</Number>
           </Button>
         </Login>
-      </Dashbar>
+      </Dashbar> */}
       <Shopbar>
         <Slash>
           <Wrapper>
@@ -187,10 +186,9 @@ export const Navbar = () => {
           ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate
           adipiscing cursus eu, suscipit id nulla.
           <br />
-          <br />
-          <br /> Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus
-          feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus
-          ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis
+          Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat
+          sem, quis fermentum turpis eros eget velit. Donec ac tempus ante.
+          Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis
           vulputate, sapien libero hendrerit est, sed commodo augue nisi non
           neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
           tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
