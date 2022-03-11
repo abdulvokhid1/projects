@@ -1,19 +1,21 @@
 import styled from "styled-components";
 export const Container = styled.div`
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
-  height: 700px;
-  background: #e5e5e5;
+  height: 1800px;
+
+  /* background: #e5e5e5; */
 `;
 
 export const Dashbar = styled.div`
   display: flex;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-left: 120px;
   margin-right: 120px;
   justify-content: space-between;
   height: 100px;
   /* background: black; */
+  position: sticky;
   align-items: center;
   border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
 `;
@@ -132,14 +134,14 @@ export const Shopbarprice = styled.div`
 `;
 export const Shopbarprice1 = styled.div`
   flex: 1;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 400px;
   display: flex;
   /* width: 800px; */
 `;
 export const Shopbarprice2 = styled.div`
   flex: 1;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 400px;
   /* width: 800px; */
 `;
@@ -187,8 +189,8 @@ export const Stardiv = styled.div`
   align-items: center;
 `;
 export const Star = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 13px;
+  height: 13px;
 `;
 export const Customer = styled.p`
   font-family: "Cera Pro";
@@ -373,5 +375,139 @@ export const Product = styled.p`
   color: #3d3d3d;
 `;
 export const Internet = styled.img`
+  margin: 15px 18px;
+`;
+
+export const Information = styled.div`
+  border: 1px solid red;
+  height: 550px;
+  margin-left: 120px;
+  margin-right: 120px;
+`;
+
+export const Review = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5); ;
+`;
+
+export const Reviewpro = styled.p`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  color: #46a358;
+  border-bottom: 3px solid rgba(70, 163, 88, 0.5); ;
+`;
+export const Reviewnum = styled.p`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 16px;
+  color: #3d3d3d;
+  margin-left: 30px;
+`;
+
+export const Text1 = styled.p`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #727272;
+`;
+
+export const Livingroom = styled.div`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: #3d3d3d;
+`;
+export const Text2 = styled.p`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: -4px;
+
+  line-height: 24px;
+  /* or 171% */
+
+  color: #727272;
+`;
+export const Diningroom = styled.div`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 171% */
+
+  color: #3d3d3d;
+`;
+export const Text3 = styled.p`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 171% */
+  margin-top: -4px;
+
+  color: #727272;
+`;
+export const Office = styled.div`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: #3d3d3d;
+`;
+export const Text4 = styled.p`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 171% */
+  margin-top: -4px;
+  color: #727272;
+`;
+
+export const Flowertypes = styled.div`
+  border: 1px solid red;
+  height: 500px;
+  margin-left: 120px;
+  margin-right: 120px;
+`;
+export const Flowerborder = styled.div`
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5); ;
+`;
+export const Colorword = styled.p`
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 16px;
+  /* identical to box height, or 94% */
+
+  color: #46a358;
+`;
+export const Mapflower = styled.div``;
+
+export const Imgmap = styled.img`
   margin: 15px 18px;
 `;
