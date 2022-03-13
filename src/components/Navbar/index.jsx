@@ -87,7 +87,7 @@ import { NavLink } from "react-router-dom";
 export const Navbar = () => {
   return (
     <Container>
-      {/* <Dashbar>
+      <Dashbar>
         <Leaf>
           <Icon src={leaf} />
           <Greenshot>GREENSHOT</Greenshot>
@@ -107,7 +107,7 @@ export const Navbar = () => {
             <Number>6</Number>
           </Button>
         </Login>
-      </Dashbar> */}
+      </Dashbar>
       <Shopbar>
         <Slash>
           <Wrapper>

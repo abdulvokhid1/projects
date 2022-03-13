@@ -522,5 +522,5 @@ export const Mapflower = styled.div``;
 
 export const Imgmap = styled.img`
   /* margin: 15px 18px; */
-  width: 250px;
+  width: 240px;
 `;

@@ -17,8 +17,9 @@ export const Root = () => {
         <Route exact path={"/plantview"} component={Homebar} />
         <Route exact path={"/blogsview"} component={Homebar} />
       </Switch> */}
-      <Homebar />
-      <Switch>
+      {/* <Homebar /> */}
+      <Navbar />
+      {/* <Switch>
         <Route exact path={"/"} component={Navbar} />
         <Route exact path={"/shopview"} component={Shoppingbar} />
         <Route exact path={"/plantview"} component={Informationbar} />
@@ -27,7 +28,7 @@ export const Root = () => {
         <Route path="*">
           <h1>404 not found</h1>
         </Route>
-      </Switch>
+      </Switch> */}
     </Router>
   );
 };
