@@ -1,8 +1,15 @@
 body {
   margin: 0%;
+  background: rgb(153, 158, 153);
 }
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+}
+.navlink {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 35px;
 }
