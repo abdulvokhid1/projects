@@ -18,7 +18,7 @@ export const Root = () => {
         <Route exact path={"/blogsview"} component={Homebar} />
       </Switch> */}
       {/* <Homebar /> */}
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Switch>
         <Route exact path={"/"} component={Navbar} />
         <Route exact path={"/shopview"} component={Shoppingbar} />

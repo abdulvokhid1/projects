@@ -7,10 +7,15 @@ import reportWebVitals from "./reportWebVitals";
 // import Hooks from "./components/Hooks";
 // import Truck from './Truck'
 import Root from "./root";
+import Root1 from "./root1";
+import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Root />
+    <Router>
+      <Root1 />
+    </Router>
+    {/* <Root /> */}
     {/* <Truck/> */}
     {/* <State /> */}
     {/* <Hooks /> */}

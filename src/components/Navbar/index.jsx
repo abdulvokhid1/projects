@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import flowers from "../mock";
 import bigflower from "../assets/images/bigflower.png";
@@ -85,6 +85,7 @@ import stroke from "../assets/icons/stroke.png";
 import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
+  // const [color, setColor] = useState(true);
   return (
     <Container>
       <Dashbar>
